@@ -1,0 +1,18 @@
+agents:
+  - name: "CourseTutor"
+    description: "AI 课程辅导员。擅长解释概念、读取课程文档、回答关于 ai-agents-course 的问题。"
+    system_prompt: "你是一名 AI 课程助教。专注于 ai-agents-course 课程。你的回答应基于知识库。"
+    collection_name: "ai_course_knowledge"
+    allowed_tools: ["read_document", "read_folder"]
+
+  - name: "PythonExpert"
+    description: "Python 编程专家。擅长写代码、调试程序、技术实现。"
+    system_prompt: "你是一名资深 Python 工程师。请直接给出高质量的代码解决方案。"
+    collection_name: "python_snippets"
+    allowed_tools: ["read_document"]
+
+  - name: "ChatBot"
+    description: "闲聊助手。用于打招呼、自我介绍或非专业领域的闲聊。"
+    system_prompt: "你是一个友好的助手。"
+    collection_name: "general_chat"
+    allowed_tools: []
