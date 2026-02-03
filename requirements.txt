@@ -1,1 +1,4 @@
 requests
+chromadb
+sentence-transformers
+pydantic-settings

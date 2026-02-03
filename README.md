@@ -74,6 +74,6 @@ python main.py
 -   **Embedding**: SentenceTransformers (all-MiniLM-L6-v2)
 -   **Protocol**: Model Context Protocol (MCP)
 
-## � License
+## 📄 License
 
 MIT License
